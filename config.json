@@ -2,6 +2,6 @@
   "BASE_URL": "http://127.0.0.1:40000",
   "API_ID": "1632382460988604",
   "API_KEY": "dad87ea24c334e0cabcb98290aeb9c55",
-  "CHROMEDRIVER_PATH": "D:\\github\\airdrop\\lib\\chromedriver.exe",
-  "EXCEL_PATH": "D:\\github\\airdrop\\lib\\accounts.xlsx"
+  "CHROMEDRIVER_PATH": "/Users/a1234/home/git/github/airdrop/lib/chromedriver.exe",
+  "EXCEL_PATH": "/Users/a1234/home/git/github/airdrop/lib/accounts.xlsx"
 }
