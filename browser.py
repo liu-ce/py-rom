@@ -93,6 +93,18 @@ class 浏览器:
         """返回当前页面的完整 URL"""
         return self.driver.current_url
 
+    def 切换到包含URL关键词的标签(self, keyword):
+        """切换到当前所有标签中第一个包含指定关键词的标签页"""
+        for handle in self.driver.window_handles:
+            self.driver.switch_to.window(handle)
+            current_url = self.driver.current_url
+            if keyword in current_url:
+                print("✅ 已切换到匹配的标签页：", current_url)
+                return True
+        print("❌ 没有找到包含关键词 [%s] 的标签页" % keyword)
+        return False
+
+
     # ---------------- 基础动作 ----------------
     def 点击(self, locator, force=False):
         """点击元素；如元素不可交互则自动滚动并可选 JS 点击。"""
