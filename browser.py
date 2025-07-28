@@ -183,6 +183,7 @@ def _默认驱动路径():
 
 
 def 创建浏览器(driver_path=None, timeout=30):
+    print(driver_path or _默认驱动路径())
     service = Service(executable_path=driver_path or _默认驱动路径())
     driver = webdriver.Chrome(service=service)
     return 浏览器(driver, timeout)
