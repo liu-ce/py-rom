@@ -1,7 +1,7 @@
 {
   "BASE_URL": "http://127.0.0.1:40000",
-  "API_ID": "1650973438353194",
-  "API_KEY": "b322434ca8f844fdb3eb814315651031",
+  "API_ID": "---",
+  "API_KEY": "----",
   "CHROMEDRIVER_PATH": "lib/chromedriver",
   "EXCEL_PATH": "lib/账号放这里.xlsx",
   "THREAD_NUM": 1,
